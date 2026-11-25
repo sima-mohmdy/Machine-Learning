@@ -34,10 +34,7 @@ The Adult Income dataset is used to predict whether an individual's annual incom
 - SVM: RandomizedSearchCV to select the best values of `C` and `gamma`.
 - Naive Bayes: GridSearchCV to optimize `var_smoothing`.
 
-### 4. Visualization
-PCA is used to reduce the feature space to two dimensions for visualizing predictions and decision boundaries. The main classification models are trained using the preprocessed feature set.
-
-### 5. Ensemble Learning
+### 4. Ensemble Learning
 - Hard Voting
 - Soft Voting
 - Averaging
